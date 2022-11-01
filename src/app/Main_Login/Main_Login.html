@@ -1,0 +1,26 @@
+<ion-content _aio-5306733C color="light">
+    <div _aio-CA7AA146 #j_18>
+        <form _aio-1EF3044F #form="ngForm" #form_el [aioFormChange]="form">
+            <ion-img _aio-C83E2F0C #j_20 src="assets/images/Help_Image.png" alt="{{ 'Image error' | translate }}">
+            </ion-img>
+            <h1 _aio-16362DC1 #j_21>
+                <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_21__text')" [ngIfElse]="j_21__default_text">
+                    {{ '' | translate }}
+                </ng-template>
+                <ng-template #j_21__default_text>
+                    {{ 'La ayuda que necesitabas al alcance de un toque, la comuindad esta para ayudarte.'
+                    | translate }}
+                </ng-template>
+            </h1>
+            <ion-button _aio-E195CC70 #j_22 expand="block" shape="round" size="large" [routerLink]="['/login']">
+                {{ 'Iniciar Sesion' | translate }}
+            </ion-button>
+            <ion-button _aio-B485251C #j_23 expand="block" shape="round" size="large" color="light"
+            [routerLink]="['/register_select']">
+                {{ 'Registrate' | translate }}
+            </ion-button>
+        </form>
+    </div>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>

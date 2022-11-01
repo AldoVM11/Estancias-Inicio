@@ -1,0 +1,87 @@
+<ion-content _aio-9CBC9462>
+    <div _aio-89B21E84 #j_65>
+        <form _aio-362FA099 #form="ngForm" #form_el [aioFormChange]="form">
+            <div _aio-421D23DE #j_67>
+                <ion-img _aio-5348AB69 #j_68 src="assets/images/Help_Image.png" alt="{{ 'Image error' | translate }}">
+                </ion-img>
+            </div>
+            <h1 _aio-2B86057B #j_69>
+                <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_69__text')" [ngIfElse]="j_69__default_text">
+                    {{ '' | translate }}
+                </ng-template>
+                <ng-template #j_69__default_text>
+                    {{ 'Inicia Sesion!' | translate }}
+                </ng-template>
+            </h1>
+            <ion-item _aio-CF97E5CB #j_70__ion4Item class="ion-no-padding">
+                <ion-label _aio-CF97E5CB #j_70__ion4Label color="primary" position="stacked">
+                    {{ 'Email' | translate }}
+                </ion-label>
+                <ion-icon _aio-CF97E5CB #j_70__icon name="person" slot="end">
+                </ion-icon>
+                <ion-input _aio-CF97E5CB #j_70="ngModel" #j_70_el [ngModel] autocomplete="new-password"
+                name="Input2" placeholder="{{ 'Email' | translate }}" type="email" required="true"
+                aioControlValidation="email" aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-5344BC68 #j_71__ion4Item class="ion-no-padding">
+                <ion-label _aio-5344BC68 #j_71__ion4Label color="primary" position="stacked">
+                    {{ 'Contraseña' | translate }}
+                </ion-label>
+                <ion-icon _aio-5344BC68 #j_71__icon name="eye" slot="end">
+                </ion-icon>
+                <ion-input _aio-5344BC68 #j_71="ngModel" #j_71_el [ngModel] autocomplete="new-password"
+                name="Input1" placeholder="{{ 'Contraseña' | translate }}" type="password" required="true"
+                aioControlValidation="strongPassword" aioValidationShowMessage="true" ShowLoginPassword="">
+                </ion-input>
+            </ion-item>
+            <div _aio-4E91D644 #j_72>
+                <a _aio-3D567B32 #j_73>
+                {{ 'Forgot Password?' | translate }}
+                </a>
+            </div>
+            <ion-item #j_74__ion4Item lines="none">
+                <ion-label #j_74__ion4Label>
+                    {{ 'Recuerdame' | translate }}
+                </ion-label>
+                <ion-checkbox _aio-82DC93E9 #j_74="ngModel" #j_74_el [ngModel]="false" name="Checkbox"
+                value="Checkbox">
+                </ion-checkbox>
+            </ion-item>
+            <ion-button _aio-885B7BB6 #j_75 expand="block" shape="round" size="large" color="dark">
+                {{ 'Login' | translate }}
+            </ion-button>
+            <div _aio-43B88265 #j_76>
+                <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_76__text')" [ngIfElse]="j_76__default_text">
+                    {{ '' | translate }}
+                </ng-template>
+                <ng-template #j_76__default_text>
+                    {{ 'O Inicia Sesion con...' | translate }}
+                </ng-template>
+            </div>
+            <div _aio-FDC7DA44 #j_77>
+                <ion-button _aio-67A7C521 #j_78 fill="outline" color="primary">
+                    <ion-icon #j_78__icon name="logo-google" slot="icon-only">
+                    </ion-icon>
+                    {{ '' | translate }}
+                </ion-button>
+            </div>
+            <div _aio-66202BB1 #j_79>
+                <div _aio-A6A9C626 #j_80>
+                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_80__text')" [ngIfElse]="j_80__default_text">
+                        {{ '' | translate }}
+                    </ng-template>
+                    <ng-template #j_80__default_text>
+                        {{ 'No tienes una cuenta? Registrate!' | translate }}
+                    </ng-template>
+                </div>
+            </div>
+            <ion-button _aio-3111CCF9 #j_81 expand="block" shape="round" size="default" color="light"
+            [routerLink]="['/register_select']">
+                {{ 'Registrate!' | translate }}
+            </ion-button>
+        </form>
+    </div>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>

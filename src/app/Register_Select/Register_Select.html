@@ -1,0 +1,34 @@
+<ion-content _aio-D5E7715B>
+    <div _aio-334E9C1A #j_26>
+        <ion-img _aio-C7069960 #j_27 src="assets/images/Help_Image.png" alt="{{ 'Image error' | translate }}">
+        </ion-img>
+        <form _aio-89D732F4 #form="ngForm" #form_el [aioFormChange]="form">
+            <h1 _aio-1DE3B01B #j_29>
+                Bienvenido/a!
+                <br>
+                Registrate aqui!
+            </h1>
+            <ion-button _aio-BE8FB892 #j_30 expand="block" [routerLink]="['/register_normal']"
+            [disabled]="__getMapping(currentItem, 'j_30__disabled', form.invalid, undefined, true)">
+                {{ 'Cuenta Normal' | translate }}
+            </ion-button>
+            <ion-button _aio-A4EA2B5F #j_31 expand="block" [routerLink]="['/register_services']"
+            [disabled]="__getMapping(currentItem, 'j_31__disabled', form.invalid, undefined, true)">
+                {{ 'Prestador de Servicios' | translate }}
+            </ion-button>
+            <h1 _aio-2D9B516B #j_32>
+                <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_32__text')" [ngIfElse]="j_32__default_text">
+                    {{ '' | translate }}
+                </ng-template>
+                <ng-template #j_32__default_text>
+                    {{ 'Ya tienes una cuenta? Inicia Sesion aqui!' | translate }}
+                </ng-template>
+            </h1>
+            <ion-button _aio-A9AFFEA2 #j_33 expand="block" [routerLink]="['/login']" [disabled]="__getMapping(currentItem, 'j_33__disabled', form.invalid, undefined, true)">
+                {{ 'Inicia Sesion' | translate }}
+            </ion-button>
+        </form>
+    </div>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>

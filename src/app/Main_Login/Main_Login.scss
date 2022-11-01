@@ -1,0 +1,41 @@
+/* Styles properties */
+ion-content[_aio-5306733C] {
+--padding-top: 16px;
+--padding-end: 16px;
+--padding-bottom: 16px;
+--padding-start: 16px;
+text-align: center;
+}
+div[_aio-CA7AA146] {
+display: inline-block;
+width: 100%;
+max-width: 400px;
+text-align: left;
+}
+form[_aio-1EF3044F] {
+background-color: var(--ion-color-light);
+}
+h1[_aio-16362DC1] {
+text-align: center;
+}
+ion-button[_aio-E195CC70] {
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+ion-button[_aio-E195CC70]::part(native) {
+color: var(--ion-color-dark);
+background-color: #ffff00;
+border-color: #ffff00;
+}
+ion-button[_aio-B485251C] {
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+ion-button[_aio-B485251C]::part(native) {
+color: var(--ion-color-dark);
+}
+/* Custom SCSS */

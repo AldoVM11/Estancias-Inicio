@@ -1,0 +1,114 @@
+<ion-content _aio-B352AFFA>
+    <div _aio-6F98FF3E #j_86>
+        <ion-img _aio-08FA6F09 #j_87 src="assets/images/IconHelp.png" alt="{{ 'Image error' | translate }}">
+        </ion-img>
+        <form _aio-44839B1C #form="ngForm" #form_el [aioFormChange]="form">
+            <h1 _aio-9436F37C #j_89>
+                Bienvenido/a!
+                <br>
+                Crea tu cuenta
+            </h1>
+            <ion-item _aio-E5769E1D #j_90__ion4Item>
+                <ion-label _aio-E5769E1D #j_90__ion4Label color="primary" position="stacked">
+                    {{ 'Nombre(s)' | translate }}
+                </ion-label>
+                <ion-input _aio-E5769E1D #j_90="ngModel" #j_90_el [ngModel] name="Nombre" placeholder="{{ '' | translate }}"
+                type="text" required="true" aioControlValidation aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-47120A2E #j_91__ion4Item>
+                <ion-label _aio-47120A2E #j_91__ion4Label color="primary" position="stacked">
+                    {{ 'Apellidos' | translate }}
+                </ion-label>
+                <ion-input _aio-47120A2E #j_91="ngModel" #j_91_el [ngModel] name="LastNameInput"
+                placeholder="{{ '' | translate }}" type="text" required="true" aioControlValidation
+                aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-FCDCBB38 #j_92__ion4Item>
+                <ion-label _aio-FCDCBB38 #j_92__ion4Label color="primary" position="stacked">
+                    {{ 'Email' | translate }}
+                </ion-label>
+                <ion-input _aio-FCDCBB38 #j_92="ngModel" #j_92_el [ngModel] autocomplete="new-password"
+                name="EmailInput" placeholder="{{ '' | translate }}" type="email" required="true"
+                aioControlValidation="email" aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-3EF81931 #j_93__ion4Item>
+                <ion-label _aio-3EF81931 #j_93__ion4Label color="primary" position="stacked">
+                    {{ 'Genero' | translate }}
+                </ion-label>
+                <ion-input _aio-3EF81931 #j_93="ngModel" #j_93_el [ngModel] autocomplete="new-password"
+                name="EmailInput_copy" placeholder="{{ '' | translate }}" type="text" required="true"
+                aioControlValidation="email" aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item #j_94__ion4Item>
+                <ion-label #j_94__ion4Label color="primary" position="stacked">
+                    {{ 'Fecha de Nacimiento' | translate }}
+                </ion-label>
+                <ion-datetime _aio-B45AF506 #j_94="ngModel" #j_94_el [ngModel]="'2003-12-20T10:00:00.000Z'"
+                name="Datetime" max="2022-10-23T08:00:00.000Z" displayFormat="MMM D, YYYY" placeholder="{{ 'Fecha de nacimiento' | translate }}">
+                </ion-datetime>
+            </ion-item>
+            <ion-item _aio-48885041 #j_95__ion4Item>
+                <ion-label _aio-48885041 #j_95__ion4Label color="primary" position="stacked">
+                    {{ 'Telefono o Celular' | translate }}
+                </ion-label>
+                <ion-input _aio-48885041 #j_95="ngModel" #j_95_el [ngModel] name="PhoneNumberInput"
+                placeholder="{{ '' | translate }}" type="tel" required="true" aioControlValidation="pattern:^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$"
+                aioValidationShowMessage="true" simpleMask="+9 (999) 999-99999">
+                </ion-input>
+            </ion-item>
+            <ion-item #j_96>
+                <ion-label #j_96__ion4Label color="primary" position="stacked">
+                    {{ 'Estado' | translate }}
+                </ion-label>
+                <ion-select _aio-47F8E219 #j_97="ngModel" #j_97_el [ngModel] cancelText="{{ 'CANCEL' | translate }}"
+                name="SelectItemWrapper1" okText="{{ 'OK' | translate }}" placeholder="{{ 'Seleccione su estado' | translate }}"
+                selectedText="{{ '' | translate }}" required="false">
+                    <ion-select-option #j_98 value="Durango">
+                        {{ 'Durango' | translate }}
+                    </ion-select-option>
+                </ion-select>
+            </ion-item>
+            <ion-item _aio-B599CAA3 #j_99__ion4Item>
+                <ion-label _aio-B599CAA3 #j_99__ion4Label color="primary" position="stacked">
+                    {{ 'Direccion' | translate }}
+                </ion-label>
+                <ion-input _aio-B599CAA3 #j_99="ngModel" #j_99_el [ngModel] autocomplete="new-password"
+                name="EmailInput_copy1" placeholder="{{ '' | translate }}" type="text" required="true"
+                aioControlValidation="email" aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-8B65BE80 #j_100__ion4Item>
+                <ion-label _aio-8B65BE80 #j_100__ion4Label color="primary" position="stacked">
+                    {{ 'Contraseña' | translate }}
+                </ion-label>
+                <ion-icon _aio-8B65BE80 #j_100__icon name="eye" slot="end">
+                </ion-icon>
+                <ion-input _aio-8B65BE80 #j_100="ngModel" #j_100_el [ngModel] autocomplete="new-password"
+                name="Input1" placeholder="{{ '' | translate }}" type="password" required="true"
+                aioControlValidation="strongPassword" aioValidationShowMessage="true" ShowSignupPassword="">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-BDD69A22 #j_101__ion4Item>
+                <ion-label _aio-BDD69A22 #j_101__ion4Label color="primary" position="stacked">
+                    {{ 'Confirmar Contraseña' | translate }}
+                </ion-label>
+                <ion-icon _aio-BDD69A22 #j_101__icon name="eye" slot="end">
+                </ion-icon>
+                <ion-input _aio-BDD69A22 #j_101="ngModel" #j_101_el [ngModel] autocomplete="new-password"
+                name="Input1_copy" placeholder="{{ '' | translate }}" type="password" required="true"
+                aioControlValidation="strongPassword" aioValidationShowMessage="true" ShowSignupPassword="">
+                </ion-input>
+            </ion-item>
+            <ion-button _aio-7B328D56 #j_102 expand="block" shape="round" size="large" color="dark"
+            [routerLink]="['/register_services_2']">
+                {{ 'Siguiente' | translate }}
+            </ion-button>
+        </form>
+    </div>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>

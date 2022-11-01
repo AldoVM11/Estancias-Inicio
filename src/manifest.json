@@ -1,0 +1,14 @@
+{
+    "short_name": "Ionic5Blank_1666580408016",
+    "name": "Ionic5Blank_1666580408016",
+    "description": "",
+    "display": "fullscreen",
+    "orientation": "any",
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+
+    ]
+}

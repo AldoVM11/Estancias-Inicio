@@ -1,0 +1,70 @@
+<ion-content _aio-DFFFC39E>
+    <div _aio-4072444F #j_2>
+        <ion-img _aio-C5999B80 #j_3 src="assets/images/IconHelp.png" alt="{{ 'Image error' | translate }}">
+        </ion-img>
+        <form _aio-0738C3FD #form="ngForm" #form_el [aioFormChange]="form">
+            <h1 _aio-7E3FA647 #j_5>
+                Bienvenido/a!
+                <br>
+                Crea tu cuenta
+            </h1>
+            <ion-item _aio-BDBD0D8E #j_6__ion4Item>
+                <ion-label _aio-BDBD0D8E #j_6__ion4Label color="primary" position="stacked">
+                    {{ 'Titulo de Nombre de tu Compañia/Empresa' | translate }}
+                </ion-label>
+                <ion-input _aio-BDBD0D8E #j_6="ngModel" #j_6_el [ngModel] placeholder="{{ '' | translate }}"
+                type="text" required="true" aioControlValidation aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-5114AAD3 #j_7__ion4Item>
+                <ion-label _aio-5114AAD3 #j_7__ion4Label color="primary" position="stacked">
+                    {{ 'Tipo de Servicio' | translate }}
+                </ion-label>
+                <ion-input _aio-5114AAD3 #j_7="ngModel" #j_7_el [ngModel] name="LastNameInput" placeholder="{{ '' | translate }}"
+                type="text" required="true" aioControlValidation aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <ion-item _aio-D961283A #j_8__ion4Item>
+                <ion-label _aio-D961283A #j_8__ion4Label color="primary" position="stacked">
+                    {{ 'Direccion del Local/Empresa (Opcional)' | translate }}
+                </ion-label>
+                <ion-input _aio-D961283A #j_8="ngModel" #j_8_el [ngModel] autocomplete="new-password"
+                name="EmailInput" placeholder="{{ '' | translate }}" type="email" required="true"
+                aioControlValidation="email" aioValidationShowMessage="true">
+                </ion-input>
+            </ion-item>
+            <div _aio-1B018B2B #j_9>
+                <ion-text _aio-B56684BE #j_10>
+                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_10__text')" [ngIfElse]="j_10__default_text">
+                        {{ '' | translate }}
+                    </ng-template>
+                    <ng-template #j_10__default_text>
+                        {{ 'Al registrarte, aceptas los ' | translate }}
+                    </ng-template>
+                </ion-text>
+            </div>
+            <div _aio-64E41233 #j_11>
+                <a _aio-B3D83C67 #j_12>
+                {{ 'Terminos de Servicios' | translate }}
+                </a>
+                <ion-text _aio-6E96EBF2 #j_13>
+                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_13__text')" [ngIfElse]="j_13__default_text">
+                        {{ '' | translate }}
+                    </ng-template>
+                    <ng-template #j_13__default_text>
+                        {{ 'y la' | translate }}
+                    </ng-template>
+                </ion-text>
+                <a _aio-5AD5527B #j_14>
+                {{ 'Política de Privacidad' | translate }}
+                </a>
+            </div>
+            <ion-button _aio-3E7DD9D5 #j_15 buttonType="button" expand="block" shape="round"
+            size="large" color="dark" [routerLink]="['/register_normal']">
+                {{ 'Registrate!' | translate }}
+            </ion-button>
+        </form>
+    </div>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>
